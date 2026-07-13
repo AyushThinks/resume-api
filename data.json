@@ -1,0 +1,85 @@
+{
+  "documents": [
+    {
+      "id": "1783951346622",
+      "title": "My First Resume",
+      "content": {},
+      "createdAt": "2026-07-13T14:02:26.622Z"
+    },
+    {
+      "id": "1783951420955",
+      "title": "My Second Resume",
+      "content": {},
+      "createdAt": "2026-07-13T14:03:40.955Z"
+    },
+    {
+      "id": "1783951529190",
+      "title": "Imported Document",
+      "content": {},
+      "importedFrom": "unknown",
+      "createdAt": "2026-07-13T14:05:29.191Z",
+      "sections": [
+        {
+          "id": "1783951855563",
+          "type": "custom",
+          "title": "New Section",
+          "items": [
+            {
+              "id": "1783952244634",
+              "role": "Senior Intern",
+              "company": "Test Co"
+            }
+          ]
+        },
+        {
+          "id": "1783952060077",
+          "type": "custom",
+          "title": "New Section",
+          "items": []
+        }
+      ],
+      "versions": [
+        {
+          "id": "1783952663049",
+          "snapshot": {
+            "title": "Imported Document",
+            "sections": [
+              {
+                "id": "1783951855563",
+                "type": "custom",
+                "title": "New Section",
+                "items": [
+                  {
+                    "id": "1783952244634",
+                    "role": "Senior Intern",
+                    "company": "Test Co"
+                  }
+                ]
+              },
+              {
+                "id": "1783952060077",
+                "type": "custom",
+                "title": "New Section",
+                "items": []
+              }
+            ]
+          },
+          "savedAt": "2026-07-13T14:24:23.049Z"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    { "id": "1", "name": "Modern", "config": { "font": "Inter", "color": "blue" } },
+    { "id": "2", "name": "Classic", "config": { "font": "Times New Roman", "color": "black" } }
+  ],
+  "applications": [
+  {
+    "id": "1",
+    "company": "Google",
+    "role": "Software Engineer Intern",
+    "status": "applied",
+    "createdAt": "2026-07-13T14:30:00.000Z"
+  }
+]
+}
