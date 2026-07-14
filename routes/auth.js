@@ -3,6 +3,11 @@ const router = express.Router();
 
 // POST /api/auth/register
 router.post('/register', (req, res) => {
+  if (!req.body) {
+    return res.status(400).json({
+        error: "Request body cannot be empty"
+    });
+  }
   res.status(201).json({
     id: Date.now().toString(),
     email: req.body.email || 'unknown@example.com',
@@ -12,6 +17,11 @@ router.post('/register', (req, res) => {
 
 // POST /api/auth/login
 router.post('/login', (req, res) => {
+  if (!req.body) {
+    return res.status(400).json({
+        error: "Request body cannot be empty"
+    });
+  }
   res.status(200).json({
     token: 'mock-jwt-token-' + Date.now(),
     email: req.body.email || 'unknown@example.com'

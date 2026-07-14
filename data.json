@@ -2,7 +2,7 @@
   "documents": [
     {
       "id": "1783951346622",
-      "title": "My First Resume",
+      "title": "Changed using put",
       "content": {},
       "createdAt": "2026-07-13T14:02:26.622Z"
     },
@@ -28,6 +28,9 @@
               "id": "1783952244634",
               "role": "Senior Intern",
               "company": "Test Co"
+            },
+            {
+              "id": "1784036014291"
             }
           ]
         },
@@ -70,16 +73,30 @@
     }
   ],
   "templates": [
-    { "id": "1", "name": "Modern", "config": { "font": "Inter", "color": "blue" } },
-    { "id": "2", "name": "Classic", "config": { "font": "Times New Roman", "color": "black" } }
+    {
+      "id": "1",
+      "name": "Modern",
+      "config": {
+        "font": "Inter",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Classic",
+      "config": {
+        "font": "Times New Roman",
+        "color": "black"
+      }
+    }
   ],
   "applications": [
-  {
-    "id": "1",
-    "company": "Google",
-    "role": "Software Engineer Intern",
-    "status": "applied",
-    "createdAt": "2026-07-13T14:30:00.000Z"
-  }
-]
+    {
+      "id": "1",
+      "company": "Google",
+      "role": "Software Engineer Intern",
+      "status": "Changed using patch",
+      "createdAt": "2026-07-13T14:30:00.000Z"
+    }
+  ]
 }

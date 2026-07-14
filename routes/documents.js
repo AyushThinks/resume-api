@@ -21,13 +21,18 @@ router.get('/', (req, res) => {
 
 // POST /api/documents - create a new document
 router.post('/', (req, res) => {
+  if (!req.body) {
+    return res.status(400).json({
+        error: "Request body cannot be empty"
+    });
+  }
   const data = readData();
   const newDoc = {
     id: Date.now().toString(),
     title: req.body.title || 'Untitled',
     content: req.body.content || {},
     createdAt: new Date().toISOString()
-  };
+  }; 
   data.documents.push(newDoc);
   writeData(data);
   res.status(201).json(newDoc);
@@ -35,6 +40,11 @@ router.post('/', (req, res) => {
 
 // POST /api/documents/import - create from upload/LinkedIn
 router.post('/import', (req, res) => {
+  if (!req.body) {
+    return res.status(400).json({
+        error: "Request body cannot be empty"
+    });
+  }
   const data = readData();
   const newDoc = {
     id: Date.now().toString(),

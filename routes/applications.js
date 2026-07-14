@@ -21,6 +21,11 @@ router.get('/', (req, res) => {
 
 // POST /api/applications - log one
 router.post('/', (req, res) => {
+  if (!req.body) {
+    return res.status(400).json({
+        error: "Request body cannot be empty"
+    });
+  }
   const data = readData();
   const newApp = {
     id: Date.now().toString(),
