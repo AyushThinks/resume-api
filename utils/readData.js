@@ -7,3 +7,5 @@ const dataPath = path.join(__dirname, '..', 'data/data.json');
 function readData() {
   return JSON.parse(fs.readFileSync(dataPath));
 }
+
+module.exports = readData;

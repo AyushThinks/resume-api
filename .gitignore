@@ -13,3 +13,7 @@ Thumbs.db
 
 # VS Code settings (optional)
 .vscode/
+
+#postman
+.postman
+postman

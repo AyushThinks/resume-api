@@ -2,15 +2,10 @@
   "documents": [
     {
       "id": "1783951346622",
-      "title": "Changed using put",
+      "title": "Updated Resume",
       "content": {},
-      "createdAt": "2026-07-13T14:02:26.622Z"
-    },
-    {
-      "id": "1783951420955",
-      "title": "My Second Resume",
-      "content": {},
-      "createdAt": "2026-07-13T14:03:40.955Z"
+      "createdAt": "2026-07-13T14:02:26.622Z",
+      "sections": []
     },
     {
       "id": "1783951529190",
@@ -28,9 +23,6 @@
               "id": "1783952244634",
               "role": "Senior Intern",
               "company": "Test Co"
-            },
-            {
-              "id": "1784036014291"
             }
           ]
         },
@@ -68,6 +60,45 @@
             ]
           },
           "savedAt": "2026-07-13T14:24:23.049Z"
+        },
+        {
+          "id": "1784378840686",
+          "snapshot": {
+            "title": "Imported Document",
+            "sections": [
+              {
+                "id": "1783951855563",
+                "type": "custom",
+                "title": "New Section",
+                "items": [
+                  {
+                    "id": "1783952244634",
+                    "role": "Senior Intern",
+                    "company": "Test Co"
+                  },
+                  {
+                    "id": "1784378433036",
+                    "name": "B.Tech CSE",
+                    "college": "Amrapali University",
+                    "year": "2024-2028"
+                  },
+                  {
+                    "id": "1784378550200",
+                    "name": "B.Tech CSE",
+                    "college": "Amrapali University",
+                    "year": "2024-2028"
+                  }
+                ]
+              },
+              {
+                "id": "1783952060077",
+                "type": "custom",
+                "title": "New Section",
+                "items": []
+              }
+            ]
+          },
+          "savedAt": "2026-07-18T12:47:20.686Z"
         }
       ]
     },
@@ -76,6 +107,33 @@
       "title": "Added 1 again",
       "content": {},
       "createdAt": "2026-07-17T07:52:24.444Z"
+    },
+    {
+      "id": "1784377493507",
+      "title": "Untitled",
+      "content": {},
+      "createdAt": "2026-07-18T12:24:53.507Z"
+    },
+    {
+      "id": "1784379711587",
+      "title": "Untitled",
+      "content": {},
+      "createdAt": "2026-07-18T13:01:51.587Z"
+    },
+    {
+      "id": "1784379747400",
+      "content": {},
+      "createdAt": "2026-07-18T13:02:27.400Z"
+    },
+    {
+      "id": "1784379779916",
+      "content": {},
+      "createdAt": "2026-07-18T13:02:59.916Z"
+    },
+    {
+      "id": "1784380617951",
+      "content": {},
+      "createdAt": "2026-07-18T13:16:57.951Z"
     }
   ],
   "templates": [
