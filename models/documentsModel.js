@@ -16,19 +16,19 @@ function getDocumentByID(id){
     return data.documents.find(document => document.id === id);
 }
 
-    // Create a document
-    function createDocument(documentData){
-        const data = readData();
-        const newDocument = {
-            id: Date.now().toString(),
-            title: documentData.title ,
-            content: documentData.content || {},
-            createdAt: new Date().toISOString()
-        }; 
-        data.documents.push(newDocument);
-        writeData(data);
-        return newDocument;
-    }
+// Create a document
+function createDocument(documentData){
+    const data = readData();
+    const newDocument = {
+        id: Date.now().toString(),
+        title: documentData.title || 'Untitled',
+        content: documentData.content || {},
+        createdAt: new Date().toISOString()
+    }; 
+    data.documents.push(newDocument);
+    writeData(data);
+    return newDocument;
+}
 
 // Update a document
 function updateDocument(id,updatedData){
